@@ -1,0 +1,35 @@
+body{
+    background-color: #98EECC;
+    position: relative;
+}
+img{
+    height: 500px;
+}
+.heart{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width:319px) and (max-width:480px) {
+   img{
+    height: 200px;
+   }
+}
+@media (min-width:481px) and (max-width:1200px) {
+    img{
+        height: 300px;
+       }
+}
+@media (min-width:1201px) and (max-width:1600px) {
+    img{
+        height: 450px;
+       }
+}
+@media (min-width:1601px) {
+    img{
+        height: 500px;
+       }
+    }

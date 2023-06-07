@@ -1,0 +1,72 @@
+body{
+    text-align: center;
+}
+.container{
+    background-color: #E4A5FF;
+    display: flex;
+    flex-direction: column;
+    height: 150vh;
+    
+    
+
+}
+.um{
+    height: 250px;
+    width: 250px;
+    margin-top: 50px;
+    
+}
+h1{
+    color: #E893CF;
+    font-size: 3rem;
+    font-family:  'Pacifico', cursive;
+    font-family: 'Philosopher', sans-serif;
+    font-family: 'Sacramento', cursive;
+
+}
+p{
+    color: black;
+    font-size: 2rem;
+    font-family: 'Kavivanar', cursive;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Philosopher', sans-serif;
+    font-family: 'Sacramento', cursive;
+    font-weight: 500;
+}
+.border{
+    border-bottom: 2px solid palevioletred;
+}
+@media (min-width:319px) and (max-width:480px) {
+    .container{
+        height: 190vh;
+    }
+ }
+ @media (min-width:481px) and (max-width:1200px) {
+    .container{
+        height: 150vh;
+    }
+ }
+ @media (min-width:1201px) and (max-width:1600px) {
+    .container{
+        height: 100vh;
+    }
+ }
+ @media (min-width:1601px) {
+    .container{
+        height: 100vh;
+    }
+     }
+
+.footer{
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    text-align: left;
+    background-color: #FFAAC9;
+}
+#insta{
+    height: 50px;
+    margin-top: 25px;
+}
